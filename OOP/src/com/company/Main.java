@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+
 import com.company.Car;
 
 public class Main {
@@ -19,5 +20,13 @@ public class Main {
 //        honda.NumberofDoors = 4;
 //        honda.carStart();
 //        honda.carDriving();
+
+        Person you = new Person();
+        Person customPerson = new Person("Quang", 0, "Austin");
+        System.out.println(customPerson.location);
+        customPerson.sayHello();
+//        you.setAge(0);
+//        you.setLocation("houston");
+//        you.setName("David");
     }
 }
